@@ -1,0 +1,30 @@
+{
+  "name": "q-live2d-collection",
+  "version": "1.0.0",
+  "description": "Super cute live2d model collection",
+  "private": true,
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SystemLight/Q-live2d-collection.git"
+  },
+  "keywords": [
+    "live2d",
+    "moegirl",
+    "waifu",
+    "model",
+    "web"
+  ],
+  "author": "SystemLight",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SystemLight/Q-live2d-collection/issues"
+  },
+  "homepage": "https://github.com/SystemLight/Q-live2d-collection#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "Live2D Model Setting",
+  "name": "iio",
+  "model": "iio.moc",
+  "textures": ["iio.1024/texture_00.png"],
+  "hit_areas_custom": {"head_x": [-0.35, 0.6], "head_y": [0.19, -0.2], "body_x": [-0.3, -0.25], "body_y": [0.3, -0.9]}
+}
