@@ -12,8 +12,8 @@ npm i
 
 ## 预览所有模型【幻灯片播放模式】
 
-```bash
-npm run start
+```
+https://systemlight.github.io/Q-live2d-collection/
 ```
 
 ## 使用方式

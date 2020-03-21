@@ -35,7 +35,7 @@
 
 <!--path:@@@页面区域+头部[#header]-->
 <header id="header">
-    <h1>幻灯片播放</h1>
+    <h1>幻灯片播放[每隔10秒切换下一张]</h1>
 </header>
 
 <!--path:@@@页面区域+主体[#main]-->
@@ -54,20 +54,21 @@
 </aside>
 
 <!--path:@@@路径设置口+脚本-->
-<script type="text/javascript" src="/core/live2d.js"></script>
-<script type="text/javascript" src="/configPath.js"></script>
+<script type="text/javascript" src="./core/live2d.js"></script>
+<script type="text/javascript" src="./configPath.js"></script>
 
 <!--path:@@@路径设置口+脚本拓展-->
 <script>
     let url = new URL(location.href);
     let q = url.searchParams.get("q");
-    loadlive2d("waifu", collection[Number(q)]);
+    loadlive2d("waifu", address + collection[Number(q)]);
+
 
     setTimeout(function () {
         if (Number(q) < collection.length - 1) {
-            location.replace("http://127.0.0.1:8080/?q=" + (Number(q) + 1))
+            location.replace(address + "?q=" + (Number(q) + 1))
         }
-    }, 3000);
+    }, 10000);
 </script>
 </body>
 </html>
